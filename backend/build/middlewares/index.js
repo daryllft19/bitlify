@@ -12,7 +12,7 @@ var DefaultErrorHandler = /** @class */ (function () {
     }
     DefaultErrorHandler.prototype.error = function (error, request, response, next) {
         response
-            .status(error.httpCode)
+            .status(error.response.status)
             .send({
             message: error.message
         });
