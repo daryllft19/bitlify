@@ -11,3 +11,7 @@ NodeJS
 
 To run:
 `npm run dev`
+
+## Alternative Backend Endpoint
+AWS Lambda and AWS API Gateway
+https://l6ayj9ulrc.execute-api.ap-southeast-1.amazonaws.com/dev/bitlinks
